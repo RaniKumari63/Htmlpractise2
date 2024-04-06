@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <style>
+    #div1
+    {
+        position: absolute;
+  left: 50px;
+  /*width: calc(100% - 100px);*/
+  width:max(50%,30px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+    }
+    body{
+        counter-reset:section;
+    }
+    h2::before{
+        counter-increment:section;
+        content:"tutorial " counter(section)":"
+    }
+    input[type=text]{
+        width:100%;
+        padding:12px 20px;
+        margin:8px 0;
+        box-sizing:border-box;
+    }
+  </style> 
+</head>
+<body>
+   <p>i will &#65;&#66;&#67;</p> 
+   <p>&#128512;&#127995;</p>
+   <p>&#9757; No skin tone</p>
+<p>&#9757;&#127999; Dark</p>
+<p>&#9757;&#127998; Medium Dark</p>
+<p>&#9757;&#127997; Medium</p>
+<p>&#9757;&#127996; Medium Light</p>
+<p>&#9757;&#127995; Light</p>
+<p>I will display &euro;</p>
+<p>&#60;</p>
+<p>&nbsp;</p>
+<p>&#8209;</p>
+<div id="div1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quas obcaecati quae provident quia fuga deserunt saepe amet recusandae velit veniam, aliquam aut laborum enim debitis consequuntur iure in modi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sapiente iste beatae libero quidem dolorem magni nam tenetur illo, voluptate quisquam debitis commodi, distinctio est magnam sequi ipsa at. Veritatis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, cum! Pariatur, distinctio maiores enim obcaecati harum ullam neque eos aperiam, eius molestiae consequatur exercitationem tempora vero soluta, provident incidunt omnis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus fugiat, doloremque velit ut vero nihil laborum temporibus esse eius. Minus, repudiandae velit. Possimus autem at laborum, mollitia modi odio.
+
+    </p>
+    <h1>hai</h1>
+    <h2>a</h2>
+    <h2>b</h2>
+    <h2>c</h2>
+    <h2>d</h2>
+    <h2>e</h2>
+    <h2>f</h2>
+    <h2>g</h2>
+    <h2>h</h2>    
+    <h2>i</h2>
+    <h2>j</h2>
+
+    <h2>ak</h2>
+    <h2>a</h2>
+    <h2>a</h2>
+    <h2>a</h2>
+    <h2>a</h2>
+    <h2>a</h2>
+    <h2>a</h2>
+</div>
+<form>
+    <label for="fname">firstname</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">lastname</label>
+    <input type="text" id="lname" name="lname">
+    <label for="email">email</label>
+    <input type="email" id="email" name="email">
+</form>
+<a href=""https://www.w3schools.com"></a>"
+</body>
+</html>
